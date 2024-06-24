@@ -350,3 +350,15 @@ footer {
 .gold-card .castaway--ticket {
   background-color: var(--castaway-blue);
 }
+
+.castaway-sponsors {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 0;
+  align-items: center;
+  justify-content: center;
+}
