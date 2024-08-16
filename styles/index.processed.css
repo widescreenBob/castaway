@@ -234,7 +234,8 @@ footer {
   }
 }
 
-.castaway-content-section__5050>div {
+.castaway-content-section__5050>div,
+.castaway-content-section__33>div {
   width: 100%;
 }
 
@@ -242,10 +243,10 @@ footer {
   .castaway-content-section__5050>div {
     width: 50%;
   }
-}
 
-.castaway-content-section__33>div {
-  width: 33%;
+  .castaway-content-section__33>div {
+    width: 33%;
+  }
 }
 
 .castaway-content-section__call-out {
@@ -361,4 +362,16 @@ footer {
   grid-row-gap: 0;
   align-items: center;
   justify-content: center;
+}
+
+.castaway-schedule-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 32px;
+
+  @media (width >=959px) {
+    width: 30%;
+    height: auto;
+    margin-bottom: 0;
+  }
 }
